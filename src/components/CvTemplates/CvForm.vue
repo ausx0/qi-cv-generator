@@ -3,6 +3,7 @@ import { useCVStore } from '@/stores/useCvStore'
 import { Button, Dialog, Textarea } from 'primevue'
 import Editor from 'primevue/editor'
 import { ref } from 'vue'
+import DownloadCv from '../downloadCv.vue'
 
 const cvStore = useCVStore()
 
@@ -227,6 +228,11 @@ function deleteSkill(index: number) {
       <button @click="cvStore.addSkill('')" class="bg-blue-500 text-white px-4 py-1 mt-2 rounded">
         Add Skill
       </button>
+    </div>
+
+    <!-- cv download -->
+    <div class="hidden md:flex justify-items-end self-end items-end justify-end">
+      <DownloadCv />
     </div>
   </div>
 </template>
