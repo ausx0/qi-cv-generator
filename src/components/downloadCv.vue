@@ -24,6 +24,6 @@ const downloadCvAsPdf = () => {
 </script>
 <template>
   <Button @click="downloadCvAsPdf" class="rounded-full p-4 bg-green-600 text-white">
-    <i class="pi pi-download"></i> Download CV
+    <i class="pi pi-download"></i>
   </Button>
 </template>

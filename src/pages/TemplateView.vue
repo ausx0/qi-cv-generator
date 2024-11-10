@@ -28,5 +28,5 @@ const openDialog = ref(false)
   </Dialog>
 
   <!-- Download Button -->
-  <div class="fixed right-0 bottom-20 p-1 md:hidden"><DownloadCv /></div>
+  <div class="fixed right-0 bottom-[15%] p-1 md:hidden"><DownloadCv /></div>
 </template>
