@@ -1,0 +1,52 @@
+{
+  "name": "ISABELLE TODD",
+  "contact": {
+    "phone": "+1-000-000",
+    "email": "isabelle@enhancv.com",
+    "location": "New York City, NY",
+    "website": "https://www.linkedin.com/isabelle"
+  },
+  "profile": "Result-oriented project team leader with 5 years of experience covering project and product management...",
+  "experience": [
+    {
+      "role": "Unit Director",
+      "company": "Rover Games",
+      "location": "",
+      "date": "04/2019 - Present",
+      "description": [
+        "Accelerated outbound sales cycle by 330%...",
+        "Established and curated strategic partnerships..."
+      ]
+    },
+    {
+      "role": "Internal Project Manager",
+      "company": "Tesla",
+      "location": "Berlin, Germany",
+      "date": "04/2012 - 03/2014",
+      "description": [
+        "Lead a team of developers to build a proprietary CRM...",
+        "Collaborated with strategic manufacturing partners..."
+      ]
+    }
+  ],
+  "education": {
+    "degree": "MSc Project and Process Management",
+    "school": "Van Hall Larenstein University",
+    "date": "10/2008 - 01/2010"
+  },
+  "certifications": [
+    "Certified Scrum Product Owner & Professional - Scrum Alliance",
+    "Agile Certified Practitioner - PMI"
+  ],
+  "skills": [
+    "Zoho Sprints",
+    "UserVoice",
+    "Amplitude",
+    "Intercom",
+    "VWO",
+    "Taboola",
+    "Maven",
+    "Jenkins",
+    "Hotjar"
+  ]
+}

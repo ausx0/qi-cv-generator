@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Modern Template",
+    "image": "/imgs/cv-1.png",
+    "link": "/templates/modern"
+  },
+  {
+    "id": 2,
+    "title": "Professional Template",
+    "image": "/imgs/cv-2.jpg",
+    "link": "/templates/professional"
+  },
+  {
+    "id": 3,
+    "title": "Creative Template",
+    "image": "/imgs/cv-3.jpg",
+    "link": "/templates/creative"
+  }
+]
