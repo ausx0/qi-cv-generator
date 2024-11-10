@@ -17,10 +17,15 @@ const openDialog = ref(false)
     </div>
   </div>
 
-  <div class="fixed right-0 bottom-[20%] p-1 md:hidden">
-    <Button @click="openDialog = true" class="rounded-full p-4 bg-indigo-600">
-      <i class="pi pi-search"></i>
-    </Button>
+  <div class="fixed right-0 flex flex-col gap-4 bottom-[20%] p-1 md:hidden">
+    <div>
+      <Button @click="openDialog = true" class="rounded-full p-4 bg-indigo-600">
+        <i class="pi pi-search"></i>
+      </Button>
+    </div>
+    <div>
+      <DownloadCv />
+    </div>
   </div>
 
   <Dialog v-model:visible="openDialog" class="h-full w-full" modal header="">
@@ -28,5 +33,4 @@ const openDialog = ref(false)
   </Dialog>
 
   <!-- Download Button -->
-  <div class="fixed right-0 bottom-[15%] p-1 md:hidden"><DownloadCv /></div>
 </template>
