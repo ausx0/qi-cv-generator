@@ -12,7 +12,7 @@ const openDialog = ref(false)
     <div class="text-black">
       <CvForm />
     </div>
-    <div class="hidden md:flex h-full w-full">
+    <div class="hidden md:flex">
       <ModernTemplate />
     </div>
   </div>
