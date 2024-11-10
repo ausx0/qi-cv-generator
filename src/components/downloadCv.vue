@@ -18,7 +18,7 @@ const downloadCvAsPdf = () => {
     x: 10, // Left margin
     y: 10, // Top margin
     width: 180, // Adjust width for A4 page
-    windowWidth: document.body.scrollWidth, // Use the document's full width for HTML content
+    windowWidth: 1024, // Set a specific width for HTML content rendering
   })
 }
 </script>
